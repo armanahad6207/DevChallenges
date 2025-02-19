@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Sora",serif;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+
+main{
+    height:100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.card{
+
+    width: 25rem;
+    background-color: FAFAF9;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+   
+   
+}
+main .card .inner-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    padding:1rem 0rem;
+   
+   
+   
+
+}
+main .card .inner-card img{
+     height:10rem;
+     width: 100%;
+     object-fit: cover;
+     padding: 0rem 1rem;
+     
+
+}
+main .card .inner-card button{
+    width:fit-content;
+    padding: 5px 20px;
+    border-radius: 30px;
+    border:none;
+    background-color: #F2EAFD;
+    color:#7C19EE;
+    font-size: 12px;
+    letter-spacing: -.5px;
+    font-weight: 500;
+    margin: 0rem 1rem;
+}
+main .card .inner-card h1{
+    font-size: 1.5rem;
+    color:#20293A;
+    padding: 0rem 1rem;
+}
+main .card .inner-card p{
+    font-size: 15px;
+    color:#394150;
+    line-height: 1.5rem;
+    padding: 0rem 1rem;
+    /* padding-top: 10px; */
+}
+main .card .inner-card h4{
+    border-top: 1px solid #E5EAF0 ;
+    padding: 0px 0px;
+    padding: 1rem  0rem .4rem  1rem;
+    font-size:1rem;
+    font-weight: 400;
+    color:#394150;
+
+}
